@@ -48,9 +48,6 @@
 .home-button3 {
   color: rgb(255, 255, 255);
 }
-.home-button4 {
-  color: rgb(255, 255, 255);
-}
 .home-btn-group {
   gap: var(--dl-space-space-fourunits);
   display: flex;
@@ -1198,7 +1195,7 @@
   max-width: 500px;
   line-height: 27px;
 }
-.home-button6 {
+.home-button5 {
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
 .home-footer {
@@ -1373,7 +1370,7 @@
   .home-burger-menu {
     display: flex;
   }
-  .home-button5 {
+  .home-button4 {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
@@ -1725,7 +1722,7 @@
     text-align: center;
     line-height: 21px;
   }
-  .home-button6 {
+  .home-button5 {
     margin-top: 0px;
   }
   .home-footer {
