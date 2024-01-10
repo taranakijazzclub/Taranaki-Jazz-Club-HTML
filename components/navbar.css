@@ -71,7 +71,7 @@
   align-items: center;
   justify-content: center;
 }
-.navbar-icon02 {
+.navbar-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -87,82 +87,6 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
-}
-.navbar-nav1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.navbar-container1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.navbar-logo1 {
-  color: rgb(255, 255, 255);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-}
-.navbar-menu-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.navbar-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.navbar-nav2 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.navbar-text3 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-text4 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-text5 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-text6 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-text7 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-container2 {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-}
-.navbar-login {
-  margin-right: var(--dl-space-space-twounits);
-}
-.navbar-icon-group {
-  display: flex;
-}
-.navbar-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.navbar-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.navbar-icon10 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
 }
 
 .navbar-root-class-name1 {
@@ -186,9 +110,6 @@
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
-  }
-  .navbar-logo1 {
-    color: #000000;
   }
 }
 @media(max-width: 767px) {
