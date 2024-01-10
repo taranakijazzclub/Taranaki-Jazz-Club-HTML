@@ -490,6 +490,9 @@
   .home-image {
     height: 400px;
   }
+  .home-container2 {
+    height: inherit;
+  }
   .home-heading {
     margin-left: 0;
   }
