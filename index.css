@@ -31,14 +31,11 @@
   align-items: center;
   flex-direction: row;
 }
-.navbar-button {
-  color: rgb(255, 255, 255);
-}
 .navbar-link {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.navbar-button1 {
+.navbar-button {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -169,7 +166,7 @@
 
 .navbar-root-class-name1 {
   top: 0px;
-  left: 111px;
+  left: 101px;
   position: absolute;
 }
 @media(max-width: 991px) {
@@ -182,7 +179,7 @@
   .navbar-burger-menu {
     display: flex;
   }
-  .navbar-button2 {
+  .navbar-button1 {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
@@ -218,7 +215,6 @@
 .home-hero {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
-  height: 100vh;
   display: flex;
   max-width: 1440px;
   align-items: center;
@@ -227,9 +223,11 @@
 .home-container1 {
   flex: 0 0 auto;
   width: 100%;
-  height: 100%;
   display: flex;
+  min-height: 100vh;
   align-items: center;
+  flex-direction: row;
+  background-color: #27272D;
 }
 .home-image {
   width: 466px;
@@ -245,11 +243,12 @@
 }
 .home-header {
   color: rgb(255, 255, 255);
-  width: 627px;
+  width: 100%;
   font-size: 90px;
   max-width: 900px;
   align-self: flex-start;
   font-style: normal;
+  margin-top: 0;
   text-align: left;
   font-family: "Monoton";
   font-weight: 500;
@@ -257,8 +256,10 @@
 }
 .home-caption {
   color: rgb(255, 255, 255);
+  width: 100%;
   font-size: 24px;
   max-width: 800px;
+  align-self: flex-start;
   text-align: left;
   line-height: 36px;
 }
@@ -277,6 +278,7 @@
   height: 100px;
   display: flex;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
@@ -290,38 +292,71 @@
   height: 100px;
   display: flex;
   position: relative;
+  align-self: center;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
 .home-text10 {
   color: rgb(255, 255, 255);
   font-family: "Monoton";
+  margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-container2 {
-  flex: 0 0 auto;
   width: 100%;
-  height: 500px;
   display: flex;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .home-text11 {
   color: rgb(0, 0, 0);
+  height: fit-content;
+  font-size: 32px;
+  box-shadow: rgb(0, 0, 0) 20px 20px 0px 0px;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  line-height: 1.4;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  background-color: rgb(249, 222, 60);
 }
 .home-text12 {
-  color: #ffffff;
+  color: #000000;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
 }
 .home-text13 {
-  color: #ffffff;
+  color: #000000;
+  font-style: italic;
+  font-weight: 700;
 }
 .home-text14 {
-  color: #ffffff;
+  color: #000000;
 }
 .home-text15 {
-  color: #ffffff;
+  color: #000000;
 }
 .home-text16 {
-  color: #ffffff;
+  color: #000000;
+}
+.home-text17 {
+  color: #000000;
+}
+.home-text18 {
+  color: #000000;
+}
+.home-text19 {
+  color: #000000;
+}
+.home-iframe {
+  width: 600px;
+  height: 500px;
+  box-shadow: 20px 20px 0px 0px #000000;
 }
 .home-contact {
   flex: 0 0 auto;
@@ -329,12 +364,41 @@
   height: 100px;
   display: flex;
   align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
-.home-text18 {
+.home-text21 {
   color: rgb(255, 255, 255);
   font-family: "Monoton";
+}
+@media(max-width: 991px) {
+  .home-container1 {
+    flex-direction: column;
+  }
+  .home-image {
+    height: 400px;
+  }
+  .home-heading {
+    margin-left: 0;
+  }
+  .home-header {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .home-caption {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .home-container2 {
+    flex-direction: column;
+  }
+  .home-iframe {
+    width: 300px;
+    height: 400px;
+  }
 }
 @media(max-width: 767px) {
   .home-hero {
@@ -348,11 +412,21 @@
   }
   .home-header {
     font-size: 36px;
-    max-width: 70%;
     line-height: 43px;
   }
   .home-caption {
     font-size: 16px;
     line-height: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .home-hero {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .home-heading {
+    margin-left: TwoUnits;
   }
 }

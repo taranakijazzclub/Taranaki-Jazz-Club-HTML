@@ -31,14 +31,11 @@
   align-items: center;
   flex-direction: row;
 }
-.navbar-button {
-  color: rgb(255, 255, 255);
-}
 .navbar-link {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.navbar-button1 {
+.navbar-button {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -169,7 +166,7 @@
 
 .navbar-root-class-name1 {
   top: 0px;
-  left: 111px;
+  left: 101px;
   position: absolute;
 }
 @media(max-width: 991px) {
@@ -182,7 +179,7 @@
   .navbar-burger-menu {
     display: flex;
   }
-  .navbar-button2 {
+  .navbar-button1 {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
