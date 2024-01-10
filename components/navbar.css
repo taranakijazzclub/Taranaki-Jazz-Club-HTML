@@ -6,6 +6,7 @@
   gap: 5rem;
   height: var(--dl-size-size-large);
   display: flex;
+  z-index: 1;
   position: relative;
   max-width: 1440px;
   align-items: center;
@@ -166,7 +167,9 @@
 
 .navbar-root-class-name1 {
   top: 0px;
-  left: 101px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
   position: absolute;
 }
 @media(max-width: 991px) {
