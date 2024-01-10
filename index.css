@@ -201,6 +201,9 @@
   .navbar-mobile-menu {
     padding: 16px;
   }
+  .navbar-root-class-name1 {
+    left: 0px;
+  }
 }
 
 .home-container {
@@ -275,7 +278,7 @@
 .home-whats-on {
   flex: 0 0 auto;
   width: 999px;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-fiveunits);
@@ -286,19 +289,20 @@
   color: rgb(255, 255, 255);
   font-family: "Monoton";
 }
+.home-text10 {
+  color: #ffffff;
+}
 .home-find-us {
   flex: 0 0 auto;
   width: 999px;
-  height: 100px;
+  height: auto;
   display: flex;
-  position: relative;
   align-self: center;
   align-items: center;
-  margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
-.home-text10 {
+.home-text11 {
   color: rgb(255, 255, 255);
   font-family: "Monoton";
   margin-bottom: var(--dl-space-space-threeunits);
@@ -309,7 +313,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text11 {
+.home-text12 {
   color: rgb(0, 0, 0);
   height: fit-content;
   font-size: 32px;
@@ -322,21 +326,18 @@
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-threeunits);
-  background-color: rgb(249, 222, 60);
-}
-.home-text12 {
-  color: #000000;
-  font-style: italic;
-  font-weight: 700;
-  text-decoration: underline;
+  background-color: #FFCF77;
 }
 .home-text13 {
   color: #000000;
   font-style: italic;
   font-weight: 700;
+  text-decoration: underline;
 }
 .home-text14 {
   color: #000000;
+  font-style: italic;
+  font-weight: 700;
 }
 .home-text15 {
   color: #000000;
@@ -353,6 +354,9 @@
 .home-text19 {
   color: #000000;
 }
+.home-text20 {
+  color: #000000;
+}
 .home-iframe {
   width: 600px;
   height: 500px;
@@ -360,20 +364,103 @@
 }
 .home-contact {
   flex: 0 0 auto;
-  width: 999px;
-  height: 100px;
+  width: 100%;
+  height: auto;
   display: flex;
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: center;
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
   justify-content: center;
 }
-.home-text21 {
+.home-text22 {
   color: rgb(255, 255, 255);
   font-family: "Monoton";
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-container3 {
+  gap: 3em;
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-icon {
+  fill: #FFCF77;
+  width: 32px;
+  height: 40px;
+  align-self: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text23 {
+  width: auto;
+  font-size: 3em;
+}
+.home-text25 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+.home-text26 {
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Josefin Sans";
+  font-weight: 100;
+}
+.home-text27 {
+  color: #d0d0d0;
+  font-style: italic;
+  font-family: "Josefin Sans";
+  font-weight: 100;
+}
+.home-text28 {
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+.home-text29 {
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+.home-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-icon2 {
+  fill: #FFCF77;
+  width: 32px;
+  height: 32px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text30 {
+  width: auto;
+  font-size: 3em;
+}
+.home-text32 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 300;
 }
 @media(max-width: 991px) {
   .home-container1 {
+    min-height: initial;
+    margin-bottom: 4em;
     flex-direction: column;
   }
   .home-image {
@@ -393,11 +480,24 @@
     text-align: center;
   }
   .home-container2 {
+    width: initial;
     flex-direction: column;
   }
+  .home-text12 {
+    margin-bottom: 2em;
+  }
   .home-iframe {
-    width: 300px;
+    width: 100%;
     height: 400px;
+  }
+  .home-container3 {
+    margin-left: 2em;
+  }
+  .home-text23 {
+    font-size: 2em;
+  }
+  .home-text30 {
+    font-size: 1.5em;
   }
 }
 @media(max-width: 767px) {
@@ -428,5 +528,17 @@
   }
   .home-heading {
     margin-left: TwoUnits;
+  }
+  .home-ul {
+    width: auto;
+  }
+  .home-li {
+    width: auto;
+  }
+  .home-text10 {
+    width: auto;
+  }
+  .home-text12 {
+    width: auto;
   }
 }
